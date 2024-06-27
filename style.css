@@ -13,7 +13,7 @@ body{
 .container{
     width:600px ;
     height: 900px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content: center;
     margin: auto;
     overflow: hidden;
@@ -214,6 +214,7 @@ button{
 @media (max-width: 480px) {
     body {
         background-size: cover;
+        height: 110vh;
     }
     .container {
         width: 100%;
@@ -233,36 +234,7 @@ button{
         font-size: 18px;
         padding-left: 10px;
     }
-    .but1  {
-        margin-left: 120px;
-        width: 20px;
-        height: 15px;
-        text-align: center;
-    }
-    .but2{
-        margin-left: 55px;
-        width: 20px;
-        height: 15px;
-        text-align: center;
-    }
-    .but3{
-        margin-left: 125px;
-        width: 20px;
-        height: 15px;
-        text-align: center;
-    }.but4{
-        margin-left: 75px;
-        width: 20px;
-        height: 15px;
-        text-align: center;
-    }
-    .but5{
-        margin-left: 105px;
-        width: 20px;
-        height: 15px;
-        text-align: center;
-    }
-    .but6{
+    .but1, .but2, .but3, .but4, .but5, .but6 {
         margin-left: 15px;
         width: 20px;
         height: 15px;

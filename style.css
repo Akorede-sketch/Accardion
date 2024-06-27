@@ -1,0 +1,280 @@
+body{
+    padding: 0;
+    margin: auto;
+    /* height: 100vh; */
+    background-image: url(https://images.unsplash.com/photo-1519865885898-a54a6f2c7eea?q=80&w=1516&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    width:600px ;
+    height: 900px;
+    border: 1px solid black;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.title{
+    text-align: center;
+}
+
+.tit{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: rgb(201, 119, 119) ;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+
+.Qone{
+    /* border: 1px solid black; */
+    width: 550px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 8px;
+    /* display: flex; */
+    font-size: 20px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 25PX;
+    background-color: rgb(109, 109, 150);
+    color: white;
+
+}
+.but1{
+    width: 40px;
+    height: 25px;
+    margin-left: 200px;
+}
+.result{
+    border: 1px solid;
+    width: 550px;
+    height: 50px;
+    display: none;
+    border-top: 0;
+
+}
+
+.Qtwo{
+    /* border: 1px solid black; */
+    width: 550px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 8px;
+    /* display: flex; */
+    font-size: 20px;
+    overflow: hidden;
+    margin-left: 25PX;
+    background-color: rgb(109, 109, 150);
+    color: white;
+
+
+
+}
+.but2{
+    width: 40px;
+    height: 25px;
+    margin-left: 130px;
+}
+
+.Qthree{
+    /* border: 1px solid black; */
+    width: 550px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 8px;
+    /* display: flex; */
+    font-size: 20px;
+    overflow: hidden;
+    margin-left: 25PX;
+    background-color: rgb(109, 109, 150);
+    color: white;
+
+
+
+}
+.but3{
+    width: 40px;
+    height: 25px;
+    margin-left: 205px;
+}
+
+.Qfour{
+    /* border: 1px solid black; */
+    width: 550px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 8px;
+    /* display: flex; */
+    font-size: 20px;
+    overflow: hidden;
+    margin-left: 25PX;
+    background-color: rgb(109, 109, 150);
+    color: white;
+
+
+
+}
+.but4{
+    width: 40px;
+    height: 25px;
+    margin-left: 150px;
+}
+
+.Qfive{
+    /* border: 1px solid black; */
+    width: 550px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 8px;
+    /* display: flex; */
+    font-size: 20px;
+    overflow: hidden;
+    margin-left: 25PX;
+    background-color: rgb(109, 109, 150);
+    color: white;
+
+
+
+}
+.but5{
+    width: 40px;
+    height: 25px;
+    margin-left: 190px;
+}
+
+.Qsix{
+    /* border: 1px solid black; */
+    width: 550px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 8px;
+    /* display: flex; */
+    font-size: 20px;
+    overflow: hidden;
+    margin-left: 25PX;
+    background-color: rgb(109, 109, 150);
+    color: white;
+
+
+
+}
+.but6{
+    width: 40px;
+    height: 25px;
+    margin-left: 90px;
+}
+.more{
+    height: 40px;
+    width: 80px;
+    position: relative;
+    left: 500px;
+    background-color:red;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: auto;
+        justify-content: center;
+        /* margin-left: 10px;/ */
+    }
+    .Qone, .Qtwo, .Qthree, .Qfour, .Qfive, .Qsix {
+        width: 100%;
+        margin-left: -20px;
+    }
+    .more {
+        left: auto;
+        right: 10px;
+    }
+}
+
+/* Mobile screens (480px and below) */
+@media (max-width: 480px) {
+    body {
+        background-size: cover;
+    }
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        justify-content: center;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .tit{
+        font-size: 15px;
+    }
+    .Qone, .Qtwo, .Qthree, .Qfour, .Qfive, .Qsix {
+        width: 100%;
+        margin-left: -10px;
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    .but1  {
+        margin-left: 120px;
+        width: 20px;
+        height: 15px;
+        text-align: center;
+    }
+    .but2{
+        margin-left: 55px;
+        width: 20px;
+        height: 15px;
+        text-align: center;
+    }
+    .but3{
+        margin-left: 125px;
+        width: 20px;
+        height: 15px;
+        text-align: center;
+    }.but4{
+        margin-left: 75px;
+        width: 20px;
+        height: 15px;
+        text-align: center;
+    }
+    .but5{
+        margin-left: 105px;
+        width: 20px;
+        height: 15px;
+        text-align: center;
+    }
+    .but6{
+        margin-left: 15px;
+        width: 20px;
+        height: 15px;
+        text-align: center;
+    }
+    .more {
+        left: auto;
+        right: 10px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+
+
